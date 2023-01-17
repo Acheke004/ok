@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\serilizerp2.props" />
+</Project>

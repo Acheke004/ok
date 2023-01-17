@@ -1,0 +1,20 @@
+@using Emp;
+
+
+@{
+
+List<Employee> emp=(List<Employee>)ViewData["emp"];
+ 
+
+}
+<table>
+@foreach (Employee e in emp)
+{
+    <tr>
+        <td>@e.empid</td>
+        <td>@e.ename</td>
+        <td>@e.dept</td>
+
+    </tr>
+}
+</table>
